@@ -1,10 +1,16 @@
-import './App.css';
+import React from "react";
+import Topo from "./components/Principal";
+import Principal from "./components/Principal";
+import './App.css'; // Importando o arquivo de estilos
 
-function App() {
-  return (
-    <div className='App'>
-    </div>
-  );
+
+
+const App = () => {
+return (
+< >
+<Topo />
+<Principal />
+</>
+);
 }
-
 export default App;
