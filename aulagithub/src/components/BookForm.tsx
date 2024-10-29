@@ -5,6 +5,7 @@ interface BookFormProps {
 onAddBook: (book: Book) => void;
 }
 
+
 function BookForm({onAddBook} : BookFormProps) {
     const [title, setTitle] = useState('');
     const [author, setAuthor] = useState('');
